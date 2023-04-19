@@ -1,4 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --background: #ffffff;
     --font: #546388;
+
+    font-family: 'Fraunces', serif;
+    background-color: var(--background);
+    color: var(--font);
+}
+
+#name {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.nav-bar-item {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-bar-item:hover {
+    font-weight: 600;
+}
+
+#info-img img {
+    max-width: 229px;
+}
+
+#info h1 {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#dl-cv p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Fraunces', serif;
+    background-color: var(--font);
+    padding: 5px 20px;
+    border-radius: 6px;
 }
