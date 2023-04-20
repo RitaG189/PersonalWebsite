@@ -20,9 +20,9 @@
     font-weight: 400;
 }
 
-.nav-bar-item:hover {
+/* .nav-bar-item:hover {
     font-weight: 600;
-}
+} */
 
 #info-img img {
     max-width: 229px;
@@ -45,4 +45,17 @@
     background-color: var(--font);
     padding: 5px 20px;
     border-radius: 6px;
+
 }
+
+#cv:hover {
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#home {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
