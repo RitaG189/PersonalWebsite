@@ -10,9 +10,34 @@
     color: var(--font);
 }
 
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #name {
     font-size: 26px;
     font-weight: 600;
+}
+
+#home {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+#about-me, #portfolio {
+    text-decoration:line-through;
 }
 
 .nav-bar-item {
@@ -52,10 +77,7 @@
     box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-#home {
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
+#theme:hover{
+    fill: currentColor;
 }
 
